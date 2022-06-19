@@ -40,5 +40,16 @@ public class Main {
         byte myNewByteValue = (byte) (myMinByteValue / 2);
 
         short myNewShortValue = (short) (myMinShortValue / 2);
+
+        byte bite = 64;
+
+        short shorty = 16000;
+
+        int inty = 1000000;
+
+        long producto = 50000L + 10L * (bite + shorty + inty);
+        System.out.println(producto);
+
+        short shortyTotal = (short) (1000 + 10 * (bite + shorty + inty));
     }
 }
